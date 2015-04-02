@@ -1,5 +1,5 @@
 name = starterkit
-description = Please provide a description for your theme.
+description = Drupal IA theme with several common layouts and styles.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate

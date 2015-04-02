@@ -40,9 +40,7 @@ body.developer{
 	.l-region--content-left,
 	.l-region--content-right
 	{
-		background: white;
 		padding: 10px;
-		box-sizing: border-box;
 		border-radius: 5px;
 		border: 1px solid $dkgray;
 		margin-bottom:10px;
@@ -51,30 +49,32 @@ body.developer{
 		display:block;
 	}
 }
-	.l-header,
-	.l-header .l-region,
-	.l-footer .l-region,
-	.l-content-center,
-	.l-nav-sidebar,
-	.l-content-wrapper,
-	.l-region--featured,
-	.l-content,
-	.l-region--above-content,
-	.l-region--below-content,
-	.l-promo-sidebar,
-	.l-region--content-left,
-	.l-region--content-right
-	{
-		display:block;
-		float:left;
-		background:white;
-		box-sizing:border-box;
-		width:100%;
-	}
+.l-header,
+.l-header .l-region,
+.l-footer .l-region,
+.l-content-center,
+.l-nav-sidebar,
+.l-content-wrapper,
+.l-region--featured,
+.l-content,
+.l-region--above-content,
+.l-region--below-content,
+.l-promo-sidebar,
+.l-region--content-left,
+.l-region--content-right
+{
+	display:block;
+	float:left;
+	background:white;
+	box-sizing:border-box;
+	width:100%;
+}
 .l-region{
 	position:relative;
 }
+body.not-logged-in{
 
+}
 /*tweak so we can see info block for these regions*/
 #block-bean-promo-sidebar-region{
 	.seemore{
